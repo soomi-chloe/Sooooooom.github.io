@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./style.css" />
     <link
@@ -15,13 +14,32 @@
   <body>
     <header class="header">
       <div class="container">
+        <div class="guide-icon">
+          <img src="images/icon/again/Menu.png" alt="Menu" />
+        </div>
         <h1 class="logo">
           <img
-            src="https://static.djangoproject.com/img/logo-django.42234b631760.svg"
-            alt="Django"
+            src="images/icon/Asset 17-8.png"
+            alt="ARTFUTURE"
+            width="207px"
+            height="33px"
           />
         </h1>
-        <nav class="nav">
+        <div class="search">
+          <form action="#" class="mailing-form">
+            <label for="input-following" class="readable-hidden">
+              send email for following news</label
+            >
+            <input
+              type="email"
+              placeholder="Enter email"
+              id="input-following"
+              name="input-following"
+            />
+            <button type="submit" class="mailing-form-btn">Submit</button>
+          </form>
+        </div>
+        <!-- <nav class="nav">
           <ul class="list">
             <li class="list-item"><a href="#">Overview</a></li>
             <li class="list-item"><a href="#">Download</a></li>
@@ -32,11 +50,11 @@
             <li class="list-item"><a href="#">About</a></li>
             <li class="list-item"><a href="#">♥ Donate</a></li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </header>
     <main class="main">
-      <div class="hero-section">
+      <!-- <div class="hero-section">
         <div class="container">
           <p class="intro-desc">
             Django makes it easier to build better Web apps more quickly with
@@ -46,9 +64,15 @@
             Get started with Django
           </a>
         </div>
-      </div>
+      </div> -->
       <div class="container-float">
+        <div class="guide-section">
+          가이드
+        </div>
         <div class="main-content">
+          메인
+        </div>
+        <!-- <div class="main-content">
           <h2 class="main-title">Stay in the loop</h2>
           <p class="main-desc">
             Subscribe to one of our mailing lists to stay up to date with
@@ -115,8 +139,8 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="side-content">
+        </div> -->
+        <!-- <div class="side-content">
           <div class="container-side-cta">
             <a href="#" class="cta side-cta">
               Download <em>latest release: 2.1.7</em>
@@ -156,7 +180,7 @@
             </dl>
             <a href="#" class="more">Inside the django community</a>
           </div>
-        </div>
+        </div> -->
       </div>
     </main>
     <footer class="footer">푸터</footer>
