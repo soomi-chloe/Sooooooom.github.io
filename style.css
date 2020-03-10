@@ -15,6 +15,10 @@ body {
 }
 a {
   text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
 }
 
 /* CTA */
@@ -60,17 +64,34 @@ a {
 .logo {
   margin: 0;
   padding-left: 97px;
-  /* padding-left: inherit; */
   position: absolute;
   top: -0.67rem;
   left: 0;
 }
-.mailing-form {
-  margin: 10px 0 30px;
+.search {
+  width: 819px;
+  /* height: 50px; */
+}
+.search-form {
+  /* margin: 10px 0 30px; */
   padding-left: 364px;
   position: relative;
 }
-.mailing-form > label {
+.search-form-btn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 7px;
+  left: 364px;
+  border: 0;
+  background: url("images/icon/again/icon_search.png") no-repeat;
+  color: #44b78b;
+  cursor: pointer;
+}
+.search-form-btn:hover {
+  color: #0c4b44;
+}
+.search-form > label {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -80,22 +101,19 @@ a {
 }
 input[type="email"] {
   width: 100%;
-  border: 1px solid #cfe3dc;
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  height: 5rem;
-  padding: 6px 80px 8px 10px;
+  /* height: 5rem; */
+  padding: 8px 10px 6px 34px;
 }
-.mailing-form-btn {
+input::placeholder {
+  color: white;
+}
+.notify-icon {
+  margin: 0;
   position: absolute;
-  top: 30%;
-  right: 10px;
-  border: 0;
-  background: transparent;
-  color: #44b78b;
-  cursor: pointer;
-}
-.mailing-form-btn:hover {
-  color: #0c4b44;
+  top: 8px;
+  right: 44px;
 }
 /* .nav {
   text-align: right;
@@ -126,7 +144,7 @@ input[type="email"] {
   float: left;
   width: 328px;
   margin: 0;
-  padding: 0 0 30px 20px;
+  padding: 0 0 30px 56px;
   border-left: 1px solid #cfe3dc;
 }
 /* HERO SECTION */
@@ -169,44 +187,44 @@ input[type="email"] {
 .main-desc {
   margin: 0 0 20px 0;
 }
-.mailing-layout {
+.search-layout {
   padding-top: 20px;
 }
-.mailing-layout::after {
+.search-layout::after {
   content: "";
   display: block;
   clear: both;
 }
-.mailing {
+.search {
   float: left;
   width: 48%;
 }
-.mailing:first-child {
+.search:first-child {
   margin-right: 4%;
 }
-.mailing-title {
+.search-title {
   margin: 0 0 20px 0;
   font-size: 1.8rem;
   font-weight: 700;
 }
-.mailing-title > a,
-.mailing-desc > a {
+.search-title > a,
+.search-desc > a {
   color: #20aa76;
 }
-.mailing-title > a:hover,
-.mailing-desc > a:hover {
+.search-title > a:hover,
+.search-desc > a:hover {
   color: #25c488;
 }
-.mailing-desc {
+.search-desc {
   margin: 0;
   font-size: 1.4rem;
   line-height: 1.3;
 }
-.mailing-form {
+.search-form {
   margin: 10px 0 30px;
   position: relative;
 }
-.mailing-form > label {
+.search-form > label {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -221,7 +239,7 @@ input[type="email"] {
   height: 5rem;
   padding: 6px 80px 8px 10px;
 }
-.mailing-form-btn {
+.search-form-btn {
   position: absolute;
   top: 30%;
   right: 10px;
@@ -230,7 +248,7 @@ input[type="email"] {
   color: #44b78b;
   cursor: pointer;
 }
-.mailing-form-btn:hover {
+.search-form-btn:hover {
   color: #0c4b44;
 } */
 

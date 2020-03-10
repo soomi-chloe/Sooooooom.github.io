@@ -26,7 +26,8 @@
           />
         </h1>
         <div class="search">
-          <form action="#" class="mailing-form">
+          <form action="#" class="search-form">
+            <button type="submit" class="search-form-btn"></button>
             <label for="input-following" class="readable-hidden">
               send email for following news</label
             >
@@ -35,22 +36,13 @@
               placeholder="미술 작품, 작가, 플레이리스트"
               id="input-following"
               name="input-following"
+              style="background-color: transparent;"
             />
-            <button type="submit" class="mailing-form-btn">Submit</button>
           </form>
         </div>
-        <!-- <nav class="nav">
-          <ul class="list">
-            <li class="list-item"><a href="#">Overview</a></li>
-            <li class="list-item"><a href="#">Download</a></li>
-            <li class="list-item"><a href="#">Documentation</a></li>
-            <li class="list-item"><a href="#">News</a></li>
-            <li class="list-item"><a href="#">Community</a></li>
-            <li class="list-item"><a href="#">Code</a></li>
-            <li class="list-item"><a href="#">About</a></li>
-            <li class="list-item"><a href="#">♥ Donate</a></li>
-          </ul>
-        </nav> -->
+        <div class="notify-icon">
+          <img src="images/icon/again/Notification Icon.png" alt="Notify" />
+        </div>
       </div>
     </header>
     <main class="main">
@@ -67,7 +59,37 @@
       </div> -->
       <div class="container-float">
         <div class="guide-section">
-          가이드
+          <nav class="nav">
+            <ul class="list-home">
+              <li class="list-item"><h3>홈</h3></li>
+              <li class="list-item"><a href="#">공감가는 미술 이야기</a></li>
+              <li class="list-item">
+                <a href="#">인기 미술작품 플레이리스트</a>
+              </li>
+              <li class="list-item"><a href="#">장르별 미술 이야기</a></li>
+              <li class="list-item"><a href="#">전지적 관람자 시점</a></li>
+            </ul>
+            <ul class="list-artInfo">
+              <li class="list-item"><h3>미술 정보</h3></li>
+              <li class="list-item"><a href="#">Top 100 작품</a></li>
+              <li class="list-item"><a href="#">Top 100 작품</a></li>
+              <li class="list-item"><a href="#">시대로 작품 보기</a></li>
+              <li class="list-item">
+                <a href="#">기법 및 재료로 작품 보기</a>
+              </li>
+            </ul>
+            <ul class="list-user">
+              <li class="list-item"><h3>주수하</h3></li>
+              <li class="list-item">
+                <a href="#">좋아하는 미술 작품 및 이야기</a>
+              </li>
+              <li class="list-item"><a href="#">구독</a></li>
+              <li class="list-item"><a href="#">내가 만든 플레이리스트</a></li>
+              <li class="list-item">
+                <a href="#">최근 본 미술 작품 및 이야기</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="main-content">
           메인
@@ -75,20 +97,20 @@
         <!-- <div class="main-content">
           <h2 class="main-title">Stay in the loop</h2>
           <p class="main-desc">
-            Subscribe to one of our mailing lists to stay up to date with
+            Subscribe to one of our search lists to stay up to date with
             everything in the Django community:
           </p>
-          <div class="mailing-layout">
-            <div class="mailing">
-              <h3 class="mailing-title">
+          <div class="search-layout">
+            <div class="search">
+              <h3 class="search-title">
                 <a href="#">
                   Using Django
                 </a>
               </h3>
-              <p class="mailing-desc">
+              <p class="search-desc">
                 Get help with Django and follow announcements.
               </p>
-              <form action="#" class="mailing-form">
+              <form action="#" class="search-form">
                 <label for="input-following" class="readable-hidden">
                   send email for following news</label
                 >
@@ -98,9 +120,9 @@
                   id="input-following"
                   name="input-following"
                 />
-                <button type="submit" class="mailing-form-btn">Submit</button>
+                <button type="submit" class="search-form-btn">Submit</button>
               </form>
-              <p class="mailing-desc">
+              <p class="search-desc">
                 You can also subscribe by sending an email to
                 <a href="mailto:django-users+subscribe@googlegroups.com">
                   django-users+subscribe@googlegroups.com
@@ -108,14 +130,14 @@
                 and following the instructions that will be sent to you.
               </p>
             </div>
-            <div class="mailing">
-              <h3 class="mailing-title">
+            <div class="search">
+              <h3 class="search-title">
                 <a href="#">Contributing to Django</a>
               </h3>
-              <p class="mailing-desc">
+              <p class="search-desc">
                 Contribute to the development of Django itself.
               </p>
-              <form action="#" class="mailing-form">
+              <form action="#" class="search-form">
                 <label for="email-contribute" class="readable-hidden">
                   send email for following news</label
                 >
@@ -125,11 +147,11 @@
                   id="input-following"
                   name="input-following"
                 />
-                <button type="submit" class="mailing-form-btn">
+                <button type="submit" class="search-form-btn">
                   Submit
                 </button>
               </form>
-              <p class="mailing-desc">
+              <p class="search-desc">
                 Before asking a question about how to Contribute, read
                 <a
                   href="https://docs.djangoproject.com/en/dev/internals/contributing/"
