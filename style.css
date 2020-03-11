@@ -12,7 +12,6 @@ html {
 body {
   /* min-width: 1685px; */
   font-size: 1.8rem;
-  /* line-height: 1.6; */
   font-family: "Noto Sans KR", sans-serif !important;
 }
 a {
@@ -21,6 +20,8 @@ a {
 }
 ul {
   list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 /* CTA */
@@ -129,7 +130,7 @@ input::placeholder {
   /* border-left: 1px solid #cfe3dc; */
 }
 .guide-content-icon {
-  background: purple;
+  background: black;
   float: left;
   width: 94.6px;
   margin: 0;
@@ -137,16 +138,19 @@ input::placeholder {
 }
 .guide.icon {
   text-align: center;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 .home.icon {
-  padding-bottom: 252.4px;
+  margin-bottom: 284.4px;
+  height: 16.6px;
 }
 .artInfo.icon {
-  padding-bottom: 238px;
+  margin-bottom: 270px;
+  height: 16px;
 }
 .user.icon {
-  padding-bottom: 204px;
+  margin-bottom: 204px;
+  height: 33px;
 }
 .guide-content {
   background: orange;
@@ -158,18 +162,30 @@ input::placeholder {
   text-align: left;
   margin-left: -40px;
 }
+ul.guide {
+  padding-bottom: 7px;
+}
 /* .list {
   margin: 0;
   font-size: 0;
 } */
+.guide.t {
+  height: 33px;
+  font-size: 22px;
+  margin: 24px 0 21px 0;
+}
+.guide.t > a {
+  vertical-align: middle;
+}
 .guide.item {
   margin-bottom: 26px;
   font-size: 18px;
   line-height: 1.11;
+  height: 27px;
 }
-
 .guide.item > a {
   color: #dcdcdc;
+  vertical-align: middle;
   /* display: inline-block; */
   /* text-transform: uppercase; */
 }
