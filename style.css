@@ -126,11 +126,37 @@ input::placeholder {
   float: left;
   width: 328px;
   margin: 0;
-  padding: 0 0 30px 56px;
-  border-left: 1px solid #cfe3dc;
+  /* border-left: 1px solid #cfe3dc; */
+}
+.guide-content-icon {
+  background: purple;
+  float: left;
+  width: 94.6px;
+  margin: 0;
+  padding: 0 30px 0 30px;
+}
+.guide.icon {
+  text-align: center;
+  padding-top: 32px;
+}
+.home.icon {
+  padding-bottom: 252.4px;
+}
+.artInfo.icon {
+  padding-bottom: 238px;
+}
+.user.icon {
+  padding-bottom: 204px;
+}
+.guide-content {
+  background: orange;
+  float: right;
+  width: 233.4px;
+  margin: 0;
 }
 .nav {
   text-align: left;
+  margin-left: -40px;
 }
 /* .list {
   margin: 0;
