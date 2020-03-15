@@ -227,7 +227,7 @@ ul.guide {
   width: 1520px;
   height: 428px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
-  background-color: orange;
+  background-color: #000000;
   display: flex;
   margin: 42px 0 0 36px;
   font-family: NotoSansKR;
@@ -241,7 +241,7 @@ ul.guide {
 .issue-content {
   padding: 34px 0 0 30px;
 }
-.issue-title {
+.content-title {
   height: 67px;
   font-size: 50px;
   font-weight: bold;
@@ -251,9 +251,7 @@ ul.guide {
   letter-spacing: normal;
   color: #ffffff;
 }
-.issue-disc {
-  width: 838px;
-  height: 64px;
+.content-desc {
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -261,50 +259,55 @@ ul.guide {
   line-height: 1.33;
   letter-spacing: normal;
   color: #ffffff;
+}
+.issue.content-desc {
+  height: 64px;
   margin: 10px 0 25px 0;
 }
-.playlists-pic {
+.issue.playlists-pic {
+  width: 100px;
+  height: 100px;
   padding-top: 1px;
 }
-.playlists-totalN {
+.issue.playlists-totalN {
   height: 29px;
   font-size: 20px;
   line-height: 1;
   color: #bcbcbc;
   margin-bottom: 15.5px;
 }
-.playlists-content,
-.playlists-content2 {
+.issue.playlists-content,
+.issue.playlists-content2 {
   width: 833px;
   display: flex;
   padding: 16.5px 0 14.5px 11.5px;
   border-width: 1px;
   border-color: #707070;
 }
-.playlists-content {
+.issue.playlists-content {
   margin: 0 0 0 14.5px;
   border-style: solid none solid none;
 }
-.playlists-content2 {
+.issue.playlists-content2 {
   margin: -1px 0 0 14.5px;
   border-style: none none solid none;
 }
-.desc {
+.issue.playlists-desc {
   padding-left: 16px;
 }
-.hashtag {
+.playlists-hashtag {
   height: 27px;
   object-fit: contain;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  padding-top: 3.5px;
   letter-spacing: normal;
   color: #8776a6;
+  padding-top: 3.5px;
 }
 .playlists-title {
-  padding: 12px 0 0 4.4px;
+  height: 30px;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -314,12 +317,21 @@ ul.guide {
   text-align: left;
   color: #ffffff;
 }
+.issue.playlists-title {
+  margin: 12px 0 0 4.4px;
+}
 .playlists-etc-info {
   display: flex;
+}
+.issue.playlists-etc-info {
   padding: 10px 0 0 4px;
 }
 .playlists-user {
   display: flex;
+}
+.user-pic {
+  width: 34px;
+  height: 34px;
 }
 .user-name {
   height: 29px;
@@ -350,6 +362,8 @@ ul.guide {
 }
 .playlists-like {
   display: flex;
+}
+.issue.playlists-like {
   padding-left: 28.3px;
 }
 .like-icn {
@@ -368,6 +382,79 @@ ul.guide {
   color: #bcbcbc;
   padding: 8px 0 0 6.6px;
 }
+
+/* 좋아할 미술 이야기 */
+.custom-playlist {
+  width: 1520px;
+  height: 477px;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #202020;
+  margin: 42px 0 0 36px;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  overflow: hidden;
+}
+.custom.content-desc {
+  height: 32px;
+  margin: 10px 0 37px 0;
+}
+.custom-contents {
+  display: flex;
+}
+.custom-content {
+  margin-right: 16px;
+}
+.custom-pic {
+  width: 368px;
+  height: 207px;
+  overflow: hidden;
+}
+.custom.playlists-hashtag {
+  margin-top: 16px;
+}
+.custom.playlists-title {
+  margin-top: 8px;
+}
+.custom.playlists-etc-info {
+  margin-top: 9px;
+}
+.custom.user-name,
+.custom.like-num {
+  color: #dcdcdc;
+}
+.arts-num {
+  height: 29px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dcdcdc;
+  padding: 8px 0 0 53.3px;
+}
+.custom.playlists-like {
+  padding-left: 15px;
+}
+.nxt-playlist-btn {
+  /* 여백 제외 사이즈는 50*50 */
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  margin-top: 79px;
+  right: 18px;
+  border: 0;
+  background: transparent;
+  /* color: #44b78b; */
+  cursor: pointer;
+}
+/* .nxt-playlist-btn:hover {
+  color: #0c4b44;
+} */
+/* 공감가는 미술 이야기 */
+
 /* .main-content {
   float: left;
   width: 70%;
