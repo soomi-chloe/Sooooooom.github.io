@@ -1,5 +1,4 @@
 /* 공통 속성 */
-/* @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); */
 
 *,
 *::before,
@@ -24,18 +23,6 @@ ul {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-
-/* CTA */
-/* .cta {
-  color: white;
-  font-weight: 400;
-  display: block;
-  border-radius: 8px;
-  background: #44b78b;
-}
-.cta:hover {
-  background: #51be95;
-} */
 
 /* Header */
 .header {
@@ -74,10 +61,8 @@ ul {
 }
 .search {
   width: 819px;
-  /* height: 50px; */
 }
 .search-form {
-  /* margin: 10px 0 30px; */
   padding-left: 364px;
   position: relative;
 }
@@ -89,7 +74,6 @@ ul {
   left: 364px;
   border: 0;
   background: url("images/icon/again/icon_search.png") no-repeat;
-  /* color: #44b78b; */
   cursor: pointer;
 }
 /* .search-form-btn:hover {
@@ -107,7 +91,6 @@ input[type="email"] {
   width: 100%;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  /* height: 5rem; */
   padding: 9px 10px 5px 34px;
 }
 input::placeholder {
@@ -128,7 +111,6 @@ input::placeholder {
   float: left;
   width: 328px;
   margin: 0;
-  /* border-left: 1px solid #cfe3dc; */
 }
 .guide-content-icon {
   background: black;
@@ -166,10 +148,6 @@ input::placeholder {
 ul.guide {
   padding-bottom: 7px;
 }
-/* .list {
-  margin: 0;
-  font-size: 0;
-} */
 .guide.t {
   height: 33px;
   font-size: 22px;
@@ -270,7 +248,10 @@ ul.guide {
   padding-top: 1px;
 }
 .issue.playlists-totalN {
+  width: 163px;
   height: 29px;
+  font-family: "Noto Sans KR", sans-serif !important;
+  word-spacing: 0px;
   font-size: 20px;
   line-height: 1;
   color: #bcbcbc;
@@ -328,6 +309,7 @@ ul.guide {
 }
 .playlists-user {
   display: flex;
+  word-spacing: 0px;
 }
 .user-pic {
   width: 34px;
@@ -386,13 +368,15 @@ ul.guide {
 /* 좋아할 미술 이야기 */
 .custom-playlist {
   width: 1520px;
-  height: 477px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
   background-color: #202020;
   margin: 42px 0 0 36px;
   font-family: NotoSansKR;
   word-spacing: -2.2px;
   overflow: hidden;
+}
+.wouldLike.custom-playlist {
+  height: 477px;
 }
 .custom.content-desc {
   height: 32px;
@@ -433,7 +417,8 @@ ul.guide {
   letter-spacing: normal;
   text-align: left;
   color: #dcdcdc;
-  padding: 8px 0 0 53.3px;
+  padding-top: 3.5px;
+  margin: 5px 0 0 53.3px;
 }
 .custom.playlists-like {
   padding-left: 15px;
@@ -453,8 +438,60 @@ ul.guide {
 /* .nxt-playlist-btn:hover {
   color: #0c4b44;
 } */
-/* 공감가는 미술 이야기 */
 
+/* 공감가는 미술 이야기 */
+.situationFit.custom-playlist {
+  height: 1036px;
+  background-color: orange;
+}
+.arrange-by-Types {
+  display: flex;
+  margin-top: 2px;
+  padding-bottom: 33px;
+}
+.type {
+  height: 42px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e8dcff;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: transparent;
+  border-style: none none solid none;
+}
+.feel.type {
+  width: 219px;
+}
+.type:focus {
+  color: #b493ef;
+  border-color: #b493ef;
+}
+.more-type-btn {
+  width: 204px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 rgba(255, 255, 255, 0.16);
+  font-family: "Noto Sans KR", sans-serif !important;
+  color: #ffffff;
+  background-color: #b493ef;
+  right: 36px;
+  position: absolute;
+  border: 0;
+  cursor: pointer;
+}
+.state.arrange-by-Types {
+  margin-top: 79px;
+}
+.state.type {
+  width: 337px;
+}
 /* .main-content {
   float: left;
   width: 70%;
