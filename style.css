@@ -368,14 +368,13 @@ ul.guide {
 /* 좋아할 미술 이야기 */
 .custom-playlist {
   width: 1520px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
   background-color: #202020;
-  margin: 42px 0 0 36px;
   font-family: NotoSansKR;
   word-spacing: -2.2px;
   overflow: hidden;
 }
 .wouldLike.custom-playlist {
+  margin: 42px 0 0 36px;
   height: 477px;
 }
 .custom.content-desc {
@@ -428,12 +427,14 @@ ul.guide {
   width: 68px;
   height: 68px;
   position: absolute;
-  margin-top: 79px;
-  right: 18px;
   border: 0;
   background: transparent;
   /* color: #44b78b; */
   cursor: pointer;
+}
+.custom.nxt-playlist-btn {
+  margin-top: 79px;
+  right: 18px;
 }
 /* .nxt-playlist-btn:hover {
   color: #0c4b44;
@@ -443,6 +444,7 @@ ul.guide {
 .situationFit.custom-playlist {
   height: 1036px;
   background-color: #202020;
+  margin: 74px 0 0 36px;
 }
 .arrange-by-Types {
   display: flex;
@@ -491,6 +493,213 @@ ul.guide {
 }
 .state.type {
   width: 337px;
+}
+/* 화가가 들려주는 미술 이야기 */
+.artist-artBehind {
+  width: 1520px;
+  height: 677px;
+  margin: 74px 0 0 36px;
+  overflow: hidden;
+  background-color: #202020;
+}
+.artBehind-intro {
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+}
+.artBehind.content-desc {
+  height: 64px;
+  margin: 10px 0 40px 0;
+}
+.artBehind-contents {
+  display: flex;
+  width: 1495px;
+  height: 463px;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: black;
+}
+.artBehind.artist-pic {
+  width: 346px;
+  height: 346px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 10px #60517c;
+  margin: 42px 0 0 38px;
+}
+.artBehind-goToProfile {
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #60517c;
+  margin: 16px 0 0 140px;
+}
+.artBehind-goToProfile::after {
+  content: " >";
+}
+.artBehind-sec2 {
+  padding: 44px 0 0 29px;
+}
+.artist-quote {
+  height: 41px;
+  font-family: NotoSansKR;
+  word-spacing: -2.36px;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.artist-nameAndRole {
+  display: flex;
+  margin: -1px 0 0 21px;
+}
+.artist-name {
+  height: 32px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dcdcdc;
+}
+.artist-role {
+  height: 33px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+  padding: 5.5px 0 0 4px;
+}
+.keyword {
+  display: flex;
+  margin: 22px 0 0 21.4px;
+}
+.keyword-title {
+  height: 29px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  padding-right: 68.6px;
+}
+.keyword-hashtag {
+  height: 27px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #8776a6;
+  padding-right: 8px;
+}
+.representative {
+  display: flex;
+  margin: 5px 0 0 21.4px;
+}
+.representative-title {
+  height: 29px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  padding-right: 49.6px;
+}
+.representative-contents {
+  display: flex;
+  margin-top: 6px;
+}
+.representative-content {
+  margin-right: 20px;
+}
+.representative-pic {
+  width: 126px;
+}
+.representative-name {
+  height: 27px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 13px 0 2px -2px;
+  padding-top: 3.5px;
+}
+.representative-etc-info {
+  display: flex;
+  margin-left: 1px;
+  height: 19px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  letter-spacing: -0.3px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #bcbcbc;
+}
+.etc-bar {
+  margin: 0 10.5px;
+}
+.artBehind-sec3 {
+  padding: 42px 0 0 86.4px;
+}
+.custom-content.title {
+  height: 29px;
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 20px;
+  line-height: 1;
+  color: #bcbcbc;
+  margin-bottom: 21px;
+}
+.artBehind.nxt-playlist-btn {
+  /* 여백 제외 사이즈는 50*50 */
+  margin-top: 198px;
+  right: 27px;
+}
+.artBehind-page-circles {
+  display: flex;
+  padding: 27px 0 0 687px;
+}
+.page-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #60517c;
+  margin-right: 36.3px;
 }
 /* .main-content {
   float: left;
