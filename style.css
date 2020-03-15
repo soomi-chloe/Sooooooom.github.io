@@ -442,7 +442,7 @@ ul.guide {
 /* 공감가는 미술 이야기 */
 .situationFit.custom-playlist {
   height: 1036px;
-  background-color: orange;
+  background-color: #202020;
 }
 .arrange-by-Types {
   display: flex;
