@@ -701,6 +701,93 @@ ul.guide {
   background-color: #60517c;
   margin-right: 36.3px;
 }
+
+/* 장르별로 감상하기 */
+.by-genre {
+  width: 1500px;
+  height: 385px;
+  margin: 46px 0 0 36px;
+  overflow: hidden;
+  background-color: orange;
+}
+.genre-intro {
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+}
+.genre.content-desc {
+  height: 32px;
+  margin: 10px 0 36px 0;
+}
+.genre-contents {
+  display: flex;
+}
+.genre-sec1 {
+  width: 1500px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.genre-content {
+  margin-right: 16px;
+}
+.playlist-btn {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 17px;
+  border: solid 1px #707070;
+  background-color: #4d4953;
+  font-family: NotoSansKR;
+  word-spacing: -2.6px;
+}
+.cropping {
+  width: 238px;
+  height: 238px;
+  overflow: hidden;
+  margin-left: -6px;
+}
+.img-filter {
+  width: 238px;
+  height: 238px;
+  position: absolute;
+  opacity: 0.4;
+  background-color: #4d4953;
+  margin: -239px 0 0 -6px;
+  border-radius: inherit;
+}
+.genre-btn-title {
+  height: 40px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  margin-top: -171px;
+}
+.genre-btn-detail {
+  height: 49px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  margin-top: -121px;
+}
+.genre.nxt-playlist-btn {
+  margin-top: 92px;
+  right: 27px;
+}
 /* .main-content {
   float: left;
   width: 70%;
