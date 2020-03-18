@@ -1,5 +1,4 @@
 /* 공통 속성 */
-
 *,
 *::before,
 *::after {
@@ -176,30 +175,13 @@ ul.guide {
 .list-item > a:hover {
   color: #c9f8dd;
 } */
-/* HERO SECTION */
-/* .hero-section {
-  text-align: center;
-  padding: 50px 0;
-  border-bottom: 1px solid #cfe3dc;
-}
-.intro-desc {
-  margin: 40px auto 50px;
-  width: 700px;
-  font-weight: 300;
-  font-size: 3.6rem;
-  line-height: 1.3;
-}
-.hero-cta {
-  width: 300px;
-  margin: 0 auto 60px;
-  padding: 20px 50px;
-} */
 
 /* MAIN CONTENT */
 .main-content {
   background: pink;
   float: right;
   width: 1592px;
+  height: 4219px;
 }
 .today-issue {
   width: 1520px;
@@ -708,7 +690,7 @@ ul.guide {
   height: 385px;
   margin: 46px 0 0 36px;
   overflow: hidden;
-  background-color: orange;
+  background-color: #202020;
 }
 .genre-intro {
   font-family: NotoSansKR;
@@ -787,6 +769,66 @@ ul.guide {
 .genre.nxt-playlist-btn {
   margin-top: 92px;
   right: 27px;
+}
+
+/* 전지적 관람자 시점 */
+.watcher.custom-playlist {
+  margin: 42px 0 0 36px;
+  height: 477px;
+}
+.title-and-dropdown {
+  display: flex;
+}
+.watcher-dropdown {
+  margin: 8px 0 0 950.24px;
+}
+ul.watcher,
+li.watcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li.watcher {
+  display: inline-block;
+  width: 119px;
+  height: 50px;
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  border-radius: 9px;
+  border: solid 1px #bcbcbc;
+  background-color: #202020;
+  text-align: center;
+  position: relative;
+  padding-top: 9px;
+  display: flex;
+}
+.dropdown-title {
+  height: 29px;
+  padding: 4.5px 0 0 17px;
+}
+li.initial-selected > img {
+  margin: 13px 17.7px 0 12.9px;
+}
+li ul.watcher {
+  position: absolute;
+  display: none;
+  margin: 40px 0 0 -1px;
+}
+ul.watcher > li > a {
+  /* text-align: center;하고 싶으면 width inherit 후 padding-left=0하기! */
+  height: 29px;
+  color: #bcbcbc;
+  padding: 4.5px 0 0 17px;
+}
+li.watcher:hover ul.watcher {
+  display: block;
 }
 /* .main-content {
   float: left;
