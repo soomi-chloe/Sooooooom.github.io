@@ -31,7 +31,7 @@ ul {
 }
 .container,
 .container-float {
-  background: #000000;
+  background: lime;
   /* max-width: 1920px; */
   margin: 0 auto;
   /* padding: 0 20px; */
@@ -106,7 +106,7 @@ input::placeholder {
 /* Main */
 /* GUIDE SECTION */
 .guide-section {
-  background: #000000;
+  background: blue;
   float: left;
   width: 328px;
   height: 4219px;
@@ -136,7 +136,7 @@ input::placeholder {
   height: 33px;
 }
 .guide-content {
-  background: #000000;
+  background: red;
   float: right;
   width: 233.4px;
   height: 4219px;
@@ -180,7 +180,7 @@ ul.guide {
 
 /* MAIN CONTENT */
 .main-content {
-  background: #202020;
+  background: pink;
   float: right;
   width: 1592px;
   height: 4219px;
@@ -999,7 +999,7 @@ input[type="email"] {
 
 /* Footer */
 .footer {
-  background: #000000;
+  background: yellow;
   /* clear: both; */
 }
 
