@@ -109,6 +109,7 @@ input::placeholder {
   background: blue;
   float: left;
   width: 328px;
+  height: 4219px;
   margin: 0;
 }
 .guide-content-icon {
@@ -138,6 +139,7 @@ input::placeholder {
   background: red;
   float: right;
   width: 233.4px;
+  height: 4219px;
   margin: 0;
 }
 .nav {
