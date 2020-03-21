@@ -50,6 +50,7 @@ ul {
   position: absolute;
   top: 8px;
   left: 0;
+  z-index: 1;
 }
 .logo {
   margin: 0;
@@ -60,6 +61,7 @@ ul {
 }
 .search {
   width: 819px;
+  z-index: -1;
 }
 .search-form {
   padding-left: 364px;
