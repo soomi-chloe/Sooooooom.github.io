@@ -556,6 +556,16 @@ input::placeholder {
   padding: 3px 0 0 0;
   margin-left: 10px;
 }
+
+/* 현재 재생 중인 플레이리스트 */
+.current-playlist {
+  background: chartreuse;
+}
+.current.playlists-pic {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
 /* 오늘의 이슈 */
 .today-issue {
   height: 428px;
