@@ -221,6 +221,7 @@ input::placeholder {
   height: 32px;
   object-fit: contain;
   font-family: Arial;
+  word-spacing: -0.5px;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -323,6 +324,7 @@ input::placeholder {
 .review-etc-ctrl-btn {
   display: flex;
   margin-top: 22px;
+  background: blueviolet;
 }
 .review-num {
   height: 33px;
@@ -334,6 +336,7 @@ input::placeholder {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  padding-top: 5.5px;
   margin: 8px 31px 0 30px;
 }
 ul.review,
@@ -410,6 +413,150 @@ li.review:hover ul.review {
 .review-mouth-script {
   margin: 5px 0 0 0;
 }
+.review-post-comment {
+  margin: 50px 0 0 0;
+}
+.review.playlists-post {
+  background: brown;
+  display: flex;
+  word-spacing: 0px;
+  padding: 0 0 31.5px 0;
+}
+.review.user-pic {
+  width: 66px;
+  height: 66px;
+}
+.review-for-comment {
+  padding-left: 18px;
+}
+.review-name-and-role {
+  display: flex;
+}
+.review.user-name {
+  width: 72px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  word-spacing: -0.5px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  /* margin: 6.5px 0 0 8px; */
+  padding: 4px 0 0 0;
+}
+.review.user-role {
+  width: 66px;
+  height: 29px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+  padding: 0;
+  margin: 2px 0 0 8.3px;
+  padding: 3.5px 0;
+  /* padding: 7.5px 0 0 8px; */
+}
+.review.input-comment {
+  width: 819px;
+  z-index: -1;
+}
+.review-form {
+  position: relative;
+}
+.review-form > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0, 0, 0, o);
+}
+input[type="email"] {
+  width: 100%;
+  border-width: 1px;
+  border-style: none none solid none;
+  padding: 10px 0 10.5px 0;
+}
+input::placeholder {
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dcdcdc;
+}
+.review.playlists-post.other {
+  padding: 38px 0 0 0;
+}
+.review.input-comment.other {
+  width: 984px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 4px;
+  margin: 6px 0 12px 0;
+  display: flex;
+}
+.review.see.more.btn {
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  margin: -1px 0 0 998px;
+  border: 0;
+  background: transparent;
+}
+.review.like {
+  display: flex;
+}
+.review-like-num {
+  width: 13px;
+  height: 27px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  padding: 3px 0 0 0;
+  margin-left: 10px;
+}
+/* 오늘의 이슈 */
 .today-issue {
   height: 428px;
   box-shadow: 0 5px 6px 0 rgba(247, 201, 201, 0.04);
