@@ -320,9 +320,99 @@ input::placeholder {
 .playlist-review {
   background: orange;
 }
+.review-etc-ctrl-btn {
+  display: flex;
+  margin-top: 22px;
+}
+.review-num {
+  height: 33px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 8px 31px 0 30px;
+}
+ul.review,
+li.review {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li.review {
+  display: inline-block;
+  width: 192px;
+  height: 50px;
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  border-radius: 9px;
+  border: solid 1px #bcbcbc;
+  background-color: #202020;
+  text-align: center;
+  position: relative;
+  padding-top: 9px;
+  display: flex;
+}
+.dropdown-title {
+  height: 29px;
+  padding: 4.5px 0 0 17px;
+}
+li.initial-selected > img {
+  margin: 13px 17.7px 0 7.9px;
+}
+li ul.review {
+  position: absolute;
+  display: none;
+  margin: 40px 0 0 -1px;
+}
+ul.review > li > a {
+  /* text-align: center;하고 싶으면 width inherit 후 padding-left=0하기! */
+  height: 29px;
+  color: #bcbcbc;
+  padding: 4.5px 0 0 17px;
+}
+li.review:hover ul.review {
+  display: block;
+}
+.review-sound-icon-1 {
+  margin: 7px 0 0 647px;
+}
+.review-sound-icon-2 {
+  margin: 5px 3px 0 0;
+}
+.review-sound-volume {
+  width: 89px;
+  height: 4px;
+  background-color: #3f394b;
+  margin: 20px 25px 0 0;
+}
+.review-sound-present {
+  width: 69px;
+  height: 4px;
+  background-color: #60517c;
+}
+.review-mouth-talk-1 {
+  margin: 10px 0 0 0;
+}
+.review-mouth-talk-2 {
+  margin: 5px 25.2px 0 0;
+}
+.review-mouth-script {
+  margin: 5px 0 0 0;
+}
 .today-issue {
   height: 428px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 5px 6px 0 rgba(247, 201, 201, 0.04);
   background-color: #202020;
   display: flex;
   font-family: NotoSansKR;
