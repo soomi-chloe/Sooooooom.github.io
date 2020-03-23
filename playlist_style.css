@@ -557,14 +557,139 @@ input::placeholder {
   margin-left: 10px;
 }
 
+/* guide-section */
+.page-controller {
+  display: flex;
+  height: 22px;
+  margin-top: 35px;
+  padding-left: 474px;
+}
+.minimize-btn {
+  padding-right: 30.4px;
+}
+
 /* 현재 재생 중인 플레이리스트 */
 .current-playlist {
   background: chartreuse;
+  padding-left: 23.4px;
+}
+.current-playlist-title {
+  height: 33px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 9.7px 0 0 0;
+  margin: 0 0 29px 0;
+}
+.current-desc-outline {
+  display: flex;
+  padding-bottom: 20px;
 }
 .current.playlists-pic {
   width: 70px;
   height: 70px;
   overflow: hidden;
+}
+.current.playlists-title {
+  width: 390px;
+  height: 57px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  margin-left: 32.6px;
+}
+.current.playlist-like {
+  padding-top: 6.1px;
+  margin-left: 9px;
+}
+.current.user-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+.current.title {
+  height: 29px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.07px;
+  text-align: left;
+  color: #bcbcbc;
+  padding-top: 4.5px;
+}
+.current.user-pic {
+  width: 26px;
+  height: 26px;
+  margin-left: 47.6px;
+}
+.current.user-name {
+  width: 60px;
+  height: 27px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 0 8px;
+  padding-top: 3.5px;
+}
+.current.user-role {
+  width: 54px;
+  height: 24px;
+  font-size: 18px;
+  margin: 5px 0 0 10.3px;
+}
+.current.music {
+  display: flex;
+  padding-bottom: 22px;
+}
+.current.music-content {
+  margin-left: 24.34px;
+}
+.music-content {
+  object-fit: contain;
+  font-family: Arial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.music-content.en {
+  height: 22px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.music-content.kor {
+  height: 24px;
+  font-size: 18px;
+  color: #dcdcdc;
+}
+.current.keyword,
+.current.hashtags {
+  display: flex;
+}
+.current.hashtags {
+  margin-left: 47.6px;
+  height: 27px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+}
+.keyword-hashtag {
+  padding-right: 9px;
 }
 /* 오늘의 이슈 */
 .today-issue {
@@ -652,17 +777,17 @@ input::placeholder {
   padding-top: 3.5px;
 }
 .playlists-title {
-  height: 30px;
-  font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.36;
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
 }
 .issue.playlists-title {
+  height: 30px;
+  font-size: 22px;
+  line-height: 1.36;
   margin: 12px 0 0 4.4px;
 }
 .playlists-etc-info {
@@ -680,30 +805,35 @@ input::placeholder {
   height: 34px;
 }
 .user-name {
-  height: 29px;
   object-fit: contain;
   font-family: Arial;
-  font-size: 22px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
   text-align: left;
+}
+.issue.user-name {
+  height: 29px;
+  font-size: 22px;
   color: #bcbcbc;
   padding: 6.5px 0 0 8px;
 }
+
 .user-role {
-  height: 27px;
   object-fit: contain;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: Arial;
-  font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
   color: #b493ef;
+}
+.issue.user-role {
+  height: 27px;
+  font-size: 20px;
   padding: 7.5px 0 0 8px;
 }
 .playlists-like {
