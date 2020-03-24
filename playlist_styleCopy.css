@@ -602,7 +602,8 @@ input::placeholder {
 .music-content.kor {
   height: 24px;
   font-size: 18px;
-  color: #dcdcdc;
+  margin-top: 5px;
+  vvvvvcolor: #dcdcdc;
 }
 .current.keyword,
 .current.hashtags {
