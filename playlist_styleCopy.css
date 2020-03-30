@@ -340,7 +340,7 @@ li.review:hover ul.review {
   margin: 5px 0 0 0;
 }
 .review-post-comment {
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 30px;
 }
 .review.playlists-post {
   background: brown;
@@ -411,6 +411,7 @@ input[type="email"] {
   border-width: 1px;
   border-style: none none solid none;
   padding: 10px 0 10.5px 0;
+  color: #dcdcdc;
 }
 input::placeholder {
   font-family: Arial;
