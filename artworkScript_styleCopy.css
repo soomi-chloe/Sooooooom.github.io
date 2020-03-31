@@ -1,0 +1,200 @@
+/* 공통 속성 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* html {
+  font-size: 10px;
+} */
+body {
+  /* min-width: 1685px; */
+  width: 1920px;
+  font-size: 1.8rem;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+/* .container-float */
+.container-float {
+  background: lime;
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  /*   position: relative; */
+  font-size: 0;
+}
+
+/* INFO-SECTION */
+.info-section {
+  background: chocolate;
+  width: 569px;
+  height: 1080px;
+  display: inline-block;
+  padding-left: 30px;
+}
+.beforeImgBtn {
+  position: absolute;
+  top: 505px;
+  left: 36px;
+}
+.artwork-info {
+  background: darkcyan;
+  float: left;
+  padding-top: 444px;
+}
+.artwork-pic {
+  width: 334.5px;
+  height: 408px;
+  overflow: hidden;
+}
+.artwork-title {
+  width: 356px;
+  height: 32px;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.artwork-artist {
+  display: flex;
+  padding: 11px 0 9px 0;
+}
+.artist-pic {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.artist-name {
+  width: 271px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  margin: 4px 18.3px 0 10px;
+  padding-top: 4px;
+}
+.artist-role {
+  width: 44px;
+  height: 29px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+  margin: 7px 23.2px 0 0;
+  padding-top: 3.5px;
+}
+.artwork-year {
+  width: 78px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dcdcdc;
+  padding-top: 4px;
+}
+.artwork-size {
+  width: 158px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  word-spacing: -0.5px;
+  text-align: center;
+  color: #dcdcdc;
+  margin: 8px 0;
+  padding-top: 4px;
+}
+
+/* MAIN */
+.main-section {
+  background: pink;
+  width: 965px;
+  height: 1080px;
+  display: inline-block;
+  overflow: hidden;
+}
+.main-script {
+  margin-top: 63px;
+  width: 965px;
+  height: 997px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  word-break: keep-all;
+}
+
+/* GUIDE SECTION */
+.guide-section {
+  background: blue;
+  width: 386px;
+  height: 1080px;
+  margin: 0;
+  display: inline-block;
+}
+.guide.close-btn {
+  background: cornflowerblue;
+  float: right;
+  margin: 35px 37.6px 0 0;
+}
+.nextImgBtn {
+  position: absolute;
+  top: 505px;
+  right: 36px;
+}
+
+/* Footer */
+.footer {
+  background: yellow;
+  /* clear: both; */
+}
+
+/* clear: both;
+=>취소하다 float right&left */
