@@ -26,7 +26,7 @@ ul {
 
 /* .container-float */
 .container-float {
-  background: lime;
+  background: rgba(0, 0, 0, 0.82);
   /* max-width: 1920px; */
   margin: 0 auto;
   /*   position: relative; */
@@ -35,7 +35,7 @@ ul {
 
 /* INFO-SECTION */
 .info-section {
-  background: chocolate;
+  background: transparent;
   width: 569px;
   height: 1080px;
   display: inline-block;
@@ -47,7 +47,7 @@ ul {
   left: 36px;
 }
 .artwork-info {
-  background: darkcyan;
+  background: transparent;
   float: left;
   padding-top: 876px;
 }
@@ -106,7 +106,6 @@ ul {
   padding-top: 3.5px;
 }
 .artwork-year {
-  width: 78px;
   height: 32px;
   object-fit: contain;
   font-family: Arial;
@@ -116,7 +115,7 @@ ul {
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: #dcdcdc;
   padding-top: 4px;
 }
@@ -139,7 +138,7 @@ ul {
 
 /* MAIN */
 .main-section {
-  background: pink;
+  background: transparent;
   width: 883.5px;
   height: 1080px;
   display: inline-block;
@@ -148,14 +147,14 @@ ul {
 
 /* GUIDE SECTION */
 .guide-section {
-  background: blue;
+  background: transparent;
   width: 467.5px;
   height: 1080px;
   margin: 0;
   display: inline-block;
 }
 .guide-list {
-  background: coral;
+  background: transparent;
   width: 133px;
   margin: 32px 0 570px 15.5px;
   float: left;
@@ -164,7 +163,7 @@ ul {
   margin-bottom: 15px;
 }
 .guide-scriptAndEtc {
-  background: cornflowerblue;
+  background: transparent;
   width: 319px;
   float: right;
 }

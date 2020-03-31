@@ -26,7 +26,7 @@ ul {
 
 /* .container-float */
 .container-float {
-  background: lime;
+  background: rgba(0, 0, 0, 0.82);
   /* max-width: 1920px; */
   margin: 0 auto;
   /*   position: relative; */
@@ -35,7 +35,7 @@ ul {
 
 /* INFO-SECTION */
 .info-section {
-  background: chocolate;
+  background: transparent;
   width: 569px;
   height: 1080px;
   display: inline-block;
@@ -47,9 +47,14 @@ ul {
   left: 36px;
 }
 .artwork-info {
-  background: darkcyan;
+  background: transparent;
   float: left;
-  padding-top: 876px;
+  padding-top: 444px;
+}
+.artwork-pic {
+  width: 334.5px;
+  height: 408px;
+  overflow: hidden;
 }
 .artwork-title {
   height: 32px;
@@ -63,6 +68,7 @@ ul {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  margin-top: 24px;
 }
 .artwork-artist {
   display: flex;
@@ -139,69 +145,48 @@ ul {
 
 /* MAIN */
 .main-section {
-  background: pink;
-  width: 883.5px;
+  background: transparent;
+  width: 965px;
   height: 1080px;
   display: inline-block;
-  overflow: hidden;
+}
+.main-script {
+  width: 989px;
+  float: left;
+  padding-top: 340px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
 
 /* GUIDE SECTION */
 .guide-section {
-  background: blue;
-  width: 467.5px;
+  background: transparent;
+  width: 386px;
   height: 1080px;
   margin: 0;
   display: inline-block;
 }
-.guide-list {
-  background: coral;
-  width: 133px;
-  margin: 32px 0 570px 15.5px;
-  float: left;
-}
-.guide.pic.item {
-  margin-bottom: 15px;
-}
-.guide-scriptAndEtc {
-  background: cornflowerblue;
-  width: 319px;
-  float: right;
-}
 .guide.close-btn {
-  margin: 35px 0 924px 259.4px;
+  background: transparent;
+  float: right;
+  margin: 35px 37.6px 0 0;
 }
 .nextImgBtn {
   position: absolute;
   top: 505px;
   right: 36px;
 }
-.guide-script {
-  width: 244px;
-  height: 56px;
-  border-radius: 25px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  border: solid 2.5px #60517c;
-  display: flex;
-  margin-left: 58px;
-}
-.guide-script-pic {
-  padding: 7.5px 0 0 27.5px;
-}
-.guide-script-desc {
-  width: 147px;
-  height: 33px;
-  font-size: 22px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.91;
-  letter-spacing: normal;
-  text-align: left;
-  color: #dcdcdc;
-  padding-top: 5.5px;
-  margin: 7.5px 0 0 4.2px;
-}
+
 /* Footer */
 .footer {
   background: yellow;

@@ -1,0 +1,808 @@
+/* 공통 속성 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  /* min-width: 1685px; */
+  width: 1920px;
+  font-size: 1.8rem;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* .container-float */
+.container-float {
+  background: #202020;
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Main */
+.main-content {
+  background: #202020;
+  float: left;
+  width: 1334px;
+  height: 2097px;
+}
+.playback-screen {
+  background: #202020;
+}
+.artwork-title-like-info {
+  background-color: #202020;
+  display: flex;
+  height: 67px;
+  margin-top: 44px;
+}
+.artwork-title {
+  height: 67px;
+  font-family: NotoSansKR;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: -0.305px;
+  word-spacing: -2.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 406px;
+}
+.artwork-like {
+  width: 39px;
+  height: 33px;
+  margin: 17px 22.3px 0 185.4px;
+}
+.art-info-btn {
+  width: 122px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2.5px #60517c;
+  margin-top: 13.5px;
+  display: flex;
+}
+.info-btn-disc {
+  width: 78px;
+  height: 29px;
+  object-fit: contain;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #60517c;
+  padding-top: 4.5px;
+  margin: 0 0.4px 0 10.5px;
+}
+.info-btn-icnArrow {
+  line-height: 0;
+  margin-top: 9.4px;
+}
+.artwork-artist-year-size {
+  background-color: #202020;
+  display: flex;
+  margin-top: 12px;
+}
+.artwork-artist {
+  display: flex;
+  padding-left: 526px;
+}
+.artist-pic {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.artist-name {
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  margin: 4px 18.3px 0 10px;
+  padding-top: 4px;
+}
+.artist-role {
+  width: 44px;
+  height: 29px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+  margin: 7px 23.2px 0 0;
+  padding-top: 3.5px;
+}
+.artwork-year {
+  width: 78px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dcdcdc;
+  margin: 0 16px;
+}
+.artwork-size {
+  width: 78px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dcdcdc;
+  margin: 0 16px;
+}
+.artwork-tracker {
+  width: 626px;
+  height: 626px;
+  border: solid 14px #60517c;
+  border-radius: 50%;
+  margin: 47px 0 0 333px;
+}
+.artwork-tracker-state {
+  width: 313px;
+  height: 313px;
+  border: solid 14px #b493ef;
+  background: #202020;
+  border-radius: 0 313px 0 0;
+  margin: -14px 0 0 299px;
+  z-index: 1;
+}
+.state-hide {
+  width: 299px;
+  height: 299px;
+  background: #202020;
+  border-radius: 0 299px 0 0;
+  margin-left: -14px;
+}
+.tracker-circle {
+  position: absolute;
+  width: 53.9px;
+  height: 53.9px;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: -26.95px 0 0 265.05px;
+}
+.artwork-tracker-pic {
+  width: 524.5px;
+  height: 524.5px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: -262.25px 0 0 36.75px;
+  z-index: -1;
+}
+.playback-present-artNum {
+  width: 47px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: #bcbcbc;
+  padding-top: 6px;
+  margin: 32px 0 10.9px 622px;
+}
+.playback-ctrl-btn {
+  display: flex;
+  margin-bottom: 28.75px;
+}
+.playback-previous-art {
+  margin: 0 80.75px 0 518.15px;
+}
+.playback-after-art {
+  margin-left: 80.75px;
+}
+.division-bar {
+  width: 1271px;
+  height: 2px;
+  background-color: #707070;
+  margin-left: 30.5px;
+}
+.playlist-review {
+  background: #202020;
+}
+.review-etc-ctrl-btn {
+  display: flex;
+  margin-top: 22px;
+  background: #202020;
+}
+.review-num {
+  height: 33px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 5.5px;
+  margin: 8px 31px 0 30px;
+}
+ul.review,
+li.review {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li.review {
+  display: inline-block;
+  width: 192px;
+  height: 50px;
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  border-radius: 9px;
+  border: solid 1px #bcbcbc;
+  background-color: #202020;
+  text-align: center;
+  position: relative;
+  padding-top: 9px;
+  display: flex;
+}
+.dropdown-title {
+  height: 29px;
+  padding: 4.5px 0 0 17px;
+}
+li.initial-selected > img {
+  margin: 13px 17.7px 0 7.9px;
+}
+li ul.review {
+  position: absolute;
+  display: none;
+  margin: 40px 0 0 -1px;
+}
+ul.review > li > a {
+  /* text-align: center;하고 싶으면 width inherit 후 padding-left=0하기! */
+  height: 29px;
+  color: #bcbcbc;
+  padding: 4.5px 0 0 17px;
+}
+li.review:hover ul.review {
+  display: block;
+}
+.review-sound-icon-1 {
+  margin: 7px 0 0 647px;
+}
+.review-sound-icon-2 {
+  margin: 5px 3px 0 0;
+}
+.review-sound-volume {
+  width: 89px;
+  height: 4px;
+  background-color: #3f394b;
+  margin: 20px 25px 0 0;
+}
+.review-sound-present {
+  width: 69px;
+  height: 4px;
+  background-color: #60517c;
+}
+.review-mouth-talk-1 {
+  margin: 10px 0 0 0;
+}
+.review-mouth-talk-2 {
+  margin: 5px 25.2px 0 0;
+}
+.review-mouth-script {
+  margin: 5px 0 0 0;
+}
+.review-post-comment {
+  margin: 50px 0 0 30px;
+}
+.review.playlists-post {
+  background: #202020;
+  display: flex;
+  word-spacing: 0px;
+  padding: 0 0 31.5px 0;
+}
+.review.user-pic {
+  width: 66px;
+  height: 66px;
+}
+.review-for-comment {
+  padding-left: 18px;
+}
+.review-name-and-role {
+  display: flex;
+}
+.review.user-name {
+  width: 72px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  word-spacing: -0.5px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  padding: 4px 0 0 0;
+}
+.review.user-role {
+  width: 66px;
+  height: 29px;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+  padding: 0;
+  margin: 2px 0 0 8.3px;
+  padding: 3.5px 0;
+}
+.review.input-comment {
+  width: 819px;
+  z-index: -1;
+}
+.review-form {
+  position: relative;
+}
+.review-form > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0, 0, 0, o);
+}
+input[type="email"] {
+  width: 100%;
+  border-width: 1px;
+  border-style: none none solid none;
+  padding: 10px 0 10.5px 0;
+  color: #dcdcdc;
+}
+input::placeholder {
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dcdcdc;
+}
+.review.playlists-post.other {
+  padding: 38px 0 0 0;
+}
+.review.input-comment.other {
+  width: 984px;
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  word-spacing: -0.5px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 4px;
+  margin: 6px 0 12px 0;
+  display: flex;
+}
+.review.see.more.btn {
+  height: 32px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  margin: -1px 0 0 998px;
+  border: 0;
+  background: transparent;
+}
+.review.like {
+  display: flex;
+}
+.review-like-num {
+  width: 13px;
+  height: 27px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bcbcbc;
+  padding: 3px 0 0 0;
+  margin-left: 10px;
+}
+
+/* GUIDE SECTION */
+.guide-section {
+  background: #000000;
+  float: right;
+  width: 586px;
+  height: 2097px;
+  margin: 0;
+}
+
+/* guide-section */
+.page-controller {
+  display: flex;
+  height: 22px;
+  margin-top: 35px;
+  padding-left: 474px;
+}
+.minimize-btn {
+  padding-right: 30.4px;
+}
+
+/* 현재 재생 중인 플레이리스트 */
+.current-playlist {
+  background: #000000;
+  padding-left: 23.4px;
+}
+.guide.common.title {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.guide.main.common.title {
+  height: 33px;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 0.91;
+  padding: 9.7px 0 0 0;
+  margin: 0 0 29px 0;
+}
+.current-desc-outline {
+  display: flex;
+  padding-bottom: 20px;
+}
+.current.playlists-pic {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+.current.playlists-title {
+  width: 390px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  margin-left: 32.6px;
+}
+.current.playlist-like {
+  padding-top: 6.1px;
+  margin-left: 9px;
+}
+.current.user-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+.current.title {
+  height: 29px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.07px;
+  text-align: left;
+  color: #bcbcbc;
+  padding-top: 4.5px;
+}
+.current.user-pic {
+  width: 26px;
+  height: 26px;
+  margin-left: 47.6px;
+}
+.current.user-name {
+  width: 60px;
+  height: 27px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 0 8px;
+  padding-top: 3.5px;
+}
+.current.user-role {
+  width: 54px;
+  height: 24px;
+  font-size: 18px;
+  margin: 5px 0 0 10.3px;
+}
+.current.music {
+  display: flex;
+  padding-bottom: 22px;
+}
+.current.music-content {
+  margin-left: 24.34px;
+}
+.music-content {
+  object-fit: contain;
+  font-family: Arial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.music-content.en {
+  height: 22px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.music-content.kor {
+  height: 24px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #dcdcdc;
+}
+.current.keyword,
+.current.hashtags {
+  display: flex;
+}
+.current.hashtags {
+  margin-left: 47.6px;
+  height: 27px;
+  object-fit: contain;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+}
+.keyword-hashtag {
+  padding-right: 9px;
+}
+
+/* artwork-list */
+.guide.artwork-list {
+  background: #000000;
+  padding-top: 59px;
+}
+.artwork-list-title {
+  padding-left: 23.4px;
+}
+.guide.sub.common.title {
+  height: 29px;
+  font-size: 20px;
+  color: #bcbcbc;
+  line-height: 1;
+  padding: 4px 0 0 0;
+  margin: 0 0 22px 0;
+}
+.artwork-list-desc {
+  height: 105px;
+  display: flex;
+  padding: 8px 0 0 23.4px;
+  background: #000000;
+  margin: 10px 0;
+}
+.artwork-list-pic {
+  height: 70px;
+  overflow: hidden;
+}
+.artwork-list-name {
+  padding: 1px 0 0 0;
+}
+.artwork.from.current.playlists-title {
+  height: 27px;
+}
+.artwork.from.current.playlists-title.desc {
+  width: 262px;
+  height: 24px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  color: #dcdcdc;
+  margin-top: 6px;
+}
+.artwork.year {
+  height: 24px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #dcdcdc;
+  margin: 5px 0 0 32.6px;
+  padding-top: 3px;
+}
+/* next-playlist */
+.next-playlist {
+  background: #000000;
+  padding: 10.3px 0 0 0;
+}
+.next.playlist.main.title {
+  padding-left: 23.4px;
+}
+.next.playlists-content {
+  display: flex;
+  background: #000000;
+  padding-bottom: 14.5px;
+  padding-left: 12px;
+}
+.next.playlists-content.second {
+  padding-top: 12px;
+}
+.next.playlists-pic {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  padding-top: 1px;
+}
+.next.playlists-desc {
+  padding-left: 33px;
+}
+.playlists-title {
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.next.playlists-title {
+  width: 443px;
+  height: 27px;
+  margin: 1px 0 0 0;
+  font-family: NotoSansKR;
+  word-spacing: -2.2px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.playlists-etc-info {
+  display: flex;
+  padding: 11px 0 0 0;
+}
+.playlists-user {
+  display: flex;
+  word-spacing: 0px;
+}
+.user-pic {
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.user-name {
+  object-fit: contain;
+  font-family: Arial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.next.user-name {
+  height: 27px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 3.5px 0 0 8px;
+}
+.user-role {
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Arial;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b493ef;
+}
+.next.user-role {
+  margin: 1px 0 0 9.3px;
+  width: 54px;
+  height: 24px;
+  font-size: 18px;
+  padding-top: 6px;
+}
+.playlists-like {
+  display: flex;
+}
+.next.playlists-like {
+  padding-left: 41.7px;
+}
+.like-icn {
+  height: 14.1px;
+  margin-top: 9px;
+  line-height: 0;
+}
+.like-num {
+  width: 34px;
+  height: 22px;
+  object-fit: contain;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 5px 0 0 9.3px;
+}
+
+/* Footer */
+.footer {
+  background: yellow;
+  /* clear: both; */
+}
+
+/* clear: both;
+=>취소하다 float right&left */
