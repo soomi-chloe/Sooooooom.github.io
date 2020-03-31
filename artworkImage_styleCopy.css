@@ -26,7 +26,7 @@ ul {
 
 /* .container-float */
 .container-float {
-  background: rgba(0, 0, 0, 0.82);
+  background: lime;
   /* max-width: 1920px; */
   margin: 0 auto;
   /*   position: relative; */
@@ -35,7 +35,7 @@ ul {
 
 /* INFO-SECTION */
 .info-section {
-  background: transparent;
+  background: chocolate;
   width: 569px;
   height: 1080px;
   display: inline-block;
@@ -47,7 +47,7 @@ ul {
   left: 36px;
 }
 .artwork-info {
-  background: transparent;
+  background: darkcyan;
   float: left;
   padding-top: 876px;
 }
@@ -140,7 +140,7 @@ ul {
 
 /* MAIN */
 .main-section {
-  background: transparent;
+  background: pink;
   width: 883.5px;
   height: 1080px;
   display: inline-block;
@@ -149,14 +149,14 @@ ul {
 
 /* GUIDE SECTION */
 .guide-section {
-  background: transparent;
+  background: blue;
   width: 467.5px;
   height: 1080px;
   margin: 0;
   display: inline-block;
 }
 .guide-list {
-  background: transparent;
+  background: coral;
   width: 133px;
   margin: 32px 0 570px 15.5px;
   float: left;
@@ -165,7 +165,7 @@ ul {
   margin-bottom: 15px;
 }
 .guide-scriptAndEtc {
-  background: transparent;
+  background: cornflowerblue;
   width: 319px;
   float: right;
 }
